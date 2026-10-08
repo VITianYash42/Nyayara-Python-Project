@@ -1,0 +1,41 @@
+{
+    "functions": {
+        "source": "functions"
+    },
+    "hosting": {
+        "public": "build/web",
+        "ignore": [
+            "firebase.json",
+            "**/.*",
+            "**/node_modules/**"
+        ],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    },
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "saheli-she-safe",
+                    "appId": "1:1076759886356:android:566aea1fdc4a702481c501",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "saheli-she-safe",
+                    "configurations": {
+                        "android": "1:1076759886356:android:566aea1fdc4a702481c501",
+                        "ios": "1:1076759886356:ios:ce833990292d9f6d81c501",
+                        "web": "1:1076759886356:web:2a97dd0d8f3971a581c501",
+                        "windows": "1:1076759886356:web:ff66c565a8ef6a2081c501"
+                    }
+                }
+            }
+        }
+    }
+}
