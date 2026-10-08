@@ -85,7 +85,7 @@ We used cutting-edge tech to make this fast, secure, and accessible:
 ### Steps
 1.  **Clone the Repo:**
     ```bash
-    git clone https://github.com/KeerthisreeJ/Nyayara.git
+    git clone https://github.com/VITianYash42/Nyayara-Python-Project.git
     cd saheli_ai
     ```
 
